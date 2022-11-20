@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/fundo"
+    app:layoutDescription="@xml/content_main_scene"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <!--<fragment
+        android:id="@+id/nav_host_fragment_content_main"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/nav_graph" />-->
+    <TextView
+        android:id="@+id/welcomeXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:text="BEM-VINDO" />
+
+    <Button
+        android:id="@+id/cronoXML"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:text="CRONÔMETRO"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/crono"
+        />
+
+    <Button
+        android:id="@+id/cardaXML"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/fome"
+        android:text="CARDÁPIO BANDECO"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
